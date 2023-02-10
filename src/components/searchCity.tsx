@@ -1,5 +1,5 @@
 import { Grid, TextField } from "@mui/material";
-import { CityProps } from "../types/states";
+import { CityProps } from "../types";
 
 export const SearchCity = ({ city, setCity }: CityProps) => {
   return (
